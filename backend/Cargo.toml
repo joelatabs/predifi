@@ -52,7 +52,7 @@ prometheus = "0.13"
 # OpenAPI / Swagger documentation
 utoipa = { version = "5.4.0", features = ["axum_extras", "chrono"] }
 # Redis caching for hot data
-redis = { version = "0.25", features = ["tokio-comp", "connection-manager"] }
+redis = { version = "1.8", features = ["tokio-comp", "connection-manager"] }
 sysinfo = "0.37"
 uuid = { version = "1", features = ["v4", "serde"] }
 predifi-errors = { path = "../contract/contracts/predifi-errors", features = ["std"] }
